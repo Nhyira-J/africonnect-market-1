@@ -1,0 +1,34 @@
+# Dependencies
+/vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Uploaded files
+/uploads/*
+!/uploads/.gitkeep
+
+# Cache
+/cache/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sql
+*.sqlite
+
+# Large files
+*.zip
+*.rar
